@@ -1,0 +1,77 @@
+.messageWrapper {
+    width: 70%;
+    max-width: 70%;
+    margin-bottom: 5px;
+    margin-left: auto;
+}
+
+.friendWrapper {
+    margin-left: 0;
+}
+
+.messageInner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.friendInner {
+    justify-content: flex-start;
+}
+
+
+.img {
+    border-radius: 50%;
+    margin-left: 5px;
+    order: 1;
+}
+
+.imgFriend {
+    order: 0;
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.text {
+    background-color: #97cbb3;
+    padding: 5px 10px;
+    border-radius: 3px;
+    order: 0;
+    text-align: right;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.textFriend {
+    order: 1;
+    text-align: left;
+    background-color: #92b2d2;
+}
+
+.name {
+    margin-bottom: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    width: max-content;
+    margin-left: auto;
+}
+
+.textFriend > .name {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.time {
+    display: block;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: 3px;
+    margin-top: 3px;
+    width: max-content;
+}
+
+.friendWrapper > .time {
+    text-align: left;
+    margin-left: 3px;
+    margin-right: auto;
+}

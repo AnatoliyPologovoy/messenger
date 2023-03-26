@@ -1,0 +1,8 @@
+.wrapper {
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    background-color: #9db7ae;
+    padding: 15px 15px 25px 15px;
+    overflow: auto;
+}
